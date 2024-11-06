@@ -1,0 +1,67 @@
+.header{
+    background-color: #ddd;
+}
+.header h1{
+    padding: 10px 20px;
+}
+.container{
+    width: 90%;
+    margin: auto;
+}
+.counter-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 24px;
+}
+#count {
+    font-size: 32px;
+    font-weight: bold;
+}
+.counter-button {
+    font-size: 30px;
+    padding: 10px 20px;
+    cursor: pointer;
+    margin: 10px;
+    width: 120px;
+    border: 1px solid #eeeeee;
+    border-radius: 15px;
+}
+table {
+    width: 50%;
+    border-collapse: collapse;
+}
+td {
+    width: 50%;
+    height: 50px;
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+.done {
+    text-decoration: line-through;
+    color: gray;
+}
+
+.delete{
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    text-decoration: none;
+    background-color: red;
+    color: white;
+}
+#todo-list li{
+    margin: 15px;
+}
+#add-item{
+    margin: 10px;
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    background-color: green;
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+}
